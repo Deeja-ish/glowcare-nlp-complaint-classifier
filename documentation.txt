@@ -1,0 +1,340 @@
+# GlowCare Customer Complaint Intelligence System
+
+GlowCare is a cosmetics company that produces and manufactures cosmetic products.
+They receive a lot of customer complaints every day. Right now, they review complaints manually and send each complaint to the appropriate department. 
+They want to build a machine learning system that will automatically review complaints, classify them, and assign a priority level.
+
+## The Business Problem
+
+The company currently processes customer complaints manually, which is slow and inconsistent. 
+The goal is to automate complaint categorization and priority assignment so that customer support can respond more efficiently and urgent issues are addressed quickly.
+
+## Who Will Use the System
+
+* Customer Support Agents
+* Customer Support Managers
+* Quality Assurance Team
+* Management
+
+## Benefits the System Will Provide
+
+* Faster response times
+* Improved customer satisfaction
+* Reduced manual workload
+* Better resource allocation
+* Ability to analyze complaint trends
+
+## Machine Learning Type
+
+This is a **Supervised Machine Learning** problem, specifically a **multi-class classification** task.
+
+---
+
+# Database Design
+
+## Complaint Table
+
+```sql
+CREATE TABLE complaint(
+complaint_id INTEGER PRIMARY KEY AUTOINCREMENT,
+complaint_category TEXT CHECK(complaint_category IN
+("packaging","delivery","product_quality","refund","billing","customer_service")) NOT NULL,
+customer_id INTEGER,
+customer_name TEXT,
+customer_country TEXT,
+communication_channel TEXT NOT NULL,
+complaint_description TEXT NOT NULL,
+complaint_product_type TEXT NOT NULL,
+complaint_priority INTEGER CHECK(0 < complaint_priority AND complaint_priority < 6),
+department_assigned TEXT,
+complaint_date DATE NOT NULL,
+complaint_status TEXT CHECK(complaint_status IN
+('in_progress','resolved','awaiting')) NOT NULL
+);
+```
+
+---
+
+# Exploratory Data Analysis
+
+After uploading the data, I performed exploratory data analysis (EDA).
+
+The dataset contains **508 records** and **12 columns**.
+
+### Dataset Summary
+
+* 500 distinct complaint IDs
+* 500 distinct customer IDs
+* 6 complaint categories
+* 500 customer names
+* 7 customer countries
+* 4 communication channels
+* 11 product types
+* 5 complaint priority levels
+* 3 complaint status values
+* 5 departments
+
+### Missing Values
+
+There is only one missing value in the `customer_country` column.
+
+Since `customer_country` is metadata and only one value is missing, I decided not to drop the row.
+
+### Duplicate Rows
+
+I found **8 duplicate rows** in the dataset.
+
+---
+
+# Category Distribution
+
+| Category         | Total | Percentage |
+| ---------------- | ----: | ---------: |
+| Billing          |    51 |     10.04% |
+| Customer Service |    75 |     14.76% |
+| Delivery         |    98 |     19.29% |
+| Packaging        |   103 |     20.28% |
+| Product Quality  |   116 |     22.83% |
+| Refund           |    65 |     12.80% |
+
+---
+
+# Country Distribution
+
+Nigeria has the highest number of complaints, followed closely by Morocco and Ghana. The complaint distribution across countries is fairly balanced.
+
+---
+
+# Communication Channel Distribution
+
+The complaints are almost evenly distributed across all communication channels.
+
+* Website – 128
+* Phone Call – 128
+* Mobile App – 126
+* Email – 126
+
+---
+
+# Product With the Highest Number of Complaints
+
+The products with the highest complaint counts are:
+
+* Kohl
+* Lipstick
+* Eyeliner
+* Concealer
+* Body Lotion
+
+while **Cleanser** has the lowest number of complaints.
+
+---
+
+# Complaint Priority Distribution
+
+Priority **3** has the highest number of complaints, followed by Priority **4**.
+
+| Priority | Count |
+| -------: | ----: |
+|        3 |   169 |
+|        4 |   140 |
+|        2 |    98 |
+|        5 |    70 |
+|        1 |    31 |
+
+---
+
+# Department Distribution
+
+Most complaints are assigned to **Customer Support**, followed by the **Quality Control Department**.
+
+---
+
+# Complaint Status Distribution
+
+* Resolved – 181
+* Awaiting – 170
+* In Progress – 157
+
+The complaint statuses are also fairly balanced.
+
+---
+
+# Exploring the Complaint Description
+
+To better understand the text data, I explored the complaint descriptions.
+
+First, I calculated the text length using `str.len()`.
+
+The shortest complaint contains **40 characters**, while the longest contains **92 characters**.
+
+Next, I converted every complaint to lowercase using `str.lower()` to make the text consistent.
+
+After that, I removed punctuation using `str.replace()` and removed stop words using the NLTK library.
+
+---
+
+# Most Frequent Words
+
+The most common words are:
+
+* arrived (200)
+* received (137)
+* perform (112)
+* advertised (112)
+* packaging (102)
+* disappointed (102)
+* order (98)
+* much (98)
+* later (98)
+* expected (98)
+* contacted (74)
+
+---
+
+# Most Frequent Bigrams
+
+The most common bigrams are:
+
+* perform advertised (112)
+* arrived damaged (102)
+* damaged packaging (102)
+* packaging disappointed (102)
+* order arrived (98)
+* arrived much (98)
+* much later (98)
+* later expected (98)
+* contacted support (74)
+* never received (74)
+* received helpful (74)
+* helpful response (74)
+* requested refund (63)
+
+These bigrams provide much more context than single words and give a better idea of what customers are complaining about.
+
+---
+
+# Text Length by Complaint Category
+
+Different complaint categories have different average text lengths.
+
+Customer service complaints tend to be the longest, while product quality complaints are generally the shortest.
+
+---
+
+# Feature Engineering
+
+During feature engineering, I created several additional features.
+
+* `cleaned_complaint_description` — contains lowercase versions of every complaint.
+* `cleaned_description` — contains text after removing punctuation and stop words.
+* `complaint_description_length` — total number of characters.
+* `complaint_description_word_count` — total number of words.
+* `char_per_word` — average number of characters per word.
+* `exclamation_count` — number of exclamation marks used in each complaint.
+
+---
+
+# Model Training
+
+Now I move to the model training stage.
+
+I first built a baseline model using only the complaint text before experimenting with additional features.
+
+The models I planned to compare were:
+
+* Multinomial Naive Bayes
+* Logistic Regression
+* Linear SVM
+* Random Forest
+
+---
+
+# Complaint Category Prediction
+
+I first trained a **Multinomial Naive Bayes** classifier using a **CountVectorizer** and the lowercase complaint column.
+
+The data was split using a **70/30 train-test split**, with **stratify** applied to preserve the class distribution.
+
+The model achieved **100% accuracy**, along with perfect precision, recall, and F1-score.
+
+I then repeated the experiment using the cleaned complaint column (without stop words or punctuation). The model again achieved **100% on every evaluation metric**.
+
+Next, I replaced the CountVectorizer with **TF-IDF**, and the results were still **100% across all evaluation metrics**.
+
+Finally, I trained a **Logistic Regression** model using CountVectorizer, and once again the model achieved **100% accuracy, precision, recall, and F1-score**.
+
+*(Model comparison table remains here.)*
+
+---
+
+# Complaint Priority Prediction
+
+Next, I moved to predicting the complaint priority.
+
+Unlike complaint category prediction, I expected this task to be much more difficult because the same complaint category can contain different priority levels.
+
+I first trained a **Naive Bayes** model using the cleaned complaint description and TF-IDF.
+
+As expected, the model achieved much lower performance.
+
+The confusion matrix showed that the model frequently confused **Priority 3** with **Priority 4**, predicting 21 Priority 4 complaints as Priority 3.
+
+*(Keep your evaluation metrics here.)*
+
+---
+
+I then tried another Naive Bayes model using TF-IDF.
+
+The performance remained low, and the confusion between Priority 3 and Priority 4 was still present.
+
+Next, I experimented with **TF-IDF using bigrams**, but the model performance became even worse.
+
+---
+
+# Investigating the Poor Performance
+
+Rather than immediately trying different models, I decided to investigate the dataset.
+
+I found that Priority 3 and Priority 4 contained the largest number of samples, while Priority 1, Priority 2, and Priority 5 had much fewer examples after the train-test split.
+
+This made learning the minority classes much more difficult.
+
+---
+
+# Adding More Features
+
+I then switched to **Logistic Regression** and started adding more features.
+
+First, I added the complaint category.
+
+Next, I included:
+
+* Communication channel
+* Product type
+* Cleaned complaint description
+* Additional engineered features
+
+The model improved slightly, achieving a precision and F1-score of around **0.30**, which was the highest performance I obtained.
+
+---
+
+# Final Observation
+
+Since this dataset was synthetically generated, the priority labels were assigned with a large amount of randomness.
+
+Because of that, there was very little relationship between the complaint text and the assigned priority.
+
+This explains why the models struggled to learn meaningful patterns for priority prediction.
+
+I decided to stop the project here because, despite the lower model performance, I learned a lot throughout the process.
+
+This project was my first experience working with:
+
+* TF-IDF vectorization
+* CountVectorizer
+* Stop-word removal
+* N-grams
+* Multinomial Naive Bayes
+* Logistic Regression for NLP
+* Building an end-to-end NLP application with Flask and Streamlit

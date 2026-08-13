@@ -1,0 +1,501 @@
+new_complaint_id,new_complaint_category,new_customer_id,new_customer_name,new_customer_country,new_communication_channel,new_complaint_description,new_complaint_product_type,new_complaint_priority,new_department_assigend,new_complaint_date,new_complaint_status
+1,refund,1001,Customer_1,Nigeria,Email,I requested a refund for my Cleanser but have not received it.,Cleanser,2,Customer Support,2025-10-30,resolved
+2,packaging,1002,Customer_2,Ghana,Mobile App,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,1,Packaging Department,2025-04-23,resolved
+3,product_quality,1003,Customer_3,Morocco,Phone Call,The Cleanser does not perform as advertised.,Cleanser,3,Quality Control Department,2025-04-21,resolved
+4,packaging,1004,Customer_4,Algeria,Email,the body lotion arrived with damaged packaging and i am disappointed.,Body Lotion,4,Packaging Department,2025-08-24,awaiting
+5,packaging,1005,Customer_5,Algeria,Website,the body lotion arrived with damaged packaging and i am disappointed.,Body Lotion,4,Packaging Department,2025-10-23,in_progress
+6,refund,1006,Customer_6,,Phone Call,I requested a refund for my Cleanser but have not received it.,Cleanser,5,Customer Support,2025-02-21,resolved
+7,delivery,1007,Customer_7,Tunisia,Website,My Kohl order arrived much later than expected.,Kohl,3,Delivery Department,2025-12-26,awaiting
+8,refund,1008,Customer_8,Kenya,Mobile App,I requested a refund for my Primer but have not received it.,Primer,2,Customer Support,2025-05-19,awaiting
+9,refund,1009,Customer_9,Ghana,Email,I requested a refund for my Sunscreen but have not received it.,Sunscreen,4,Customer Support,2025-06-11,resolved
+10,delivery,1010,Customer_10,Ghana,Mobile App,My Sunscreen order arrived much later than expected.,Sunscreen,4,Delivery Department,2025-07-22,awaiting
+11,product_quality,1011,Customer_11,Tunisia,Mobile App,the eyeliner does not perform as advertised.,Eyeliner,3,Quality Control Department,2025-10-26,resolved
+12,product_quality,1012,Customer_12,Nigeria,Phone Call,The Foundation does not perform as advertised.,Foundation,1,Quality Control Department,2025-11-18,in_progress
+13,billing,1013,Customer_13,Kenya,Website,I was charged twice for my Body Lotion purchase.,Body Lotion,3,Finance Department,2025-10-11,in_progress
+14,refund,1014,Customer_14,Tunisia,Website,I requested a refund for my Lipstick but have not received it.,Lipstick,3,Customer Support,2025-02-27,resolved
+15,product_quality,1015,Customer_15,Egypt,Phone Call,the blush does not perform as advertised.,Blush,4,Quality Control Department,2025-09-17,in_progress
+16,customer_service,1016,Customer_16,Morocco,Phone Call,I contacted support about my Eyeliner and never received a helpful response.,Eyeliner,2,Customer Support,2025-10-04,awaiting
+17,customer_service,1017,Customer_17,Algeria,Website,I contacted support about my Primer and never received a helpful response. please help!!!,Primer,5,Customer Support,2025-05-03,in_progress
+18,delivery,1018,Customer_18,Nigeria,Phone Call,My Primer order arrived much later than expected.,Primer,3,Delivery Department,2025-03-07,awaiting
+19,product_quality,1019,Customer_19,Ghana,Phone Call,The Concealer does not perform as advertised.,Concealer,4,Quality Control Department,2026-01-01,resolved
+20,product_quality,1020,Customer_20,Nigeria,Phone Call,The Kohl does not perform as advertised.,Kohl,3,Quality Control Department,2025-04-26,in_progress
+21,delivery,1021,Customer_21,Tunisia,Email,My Primer order arrived much later than expected.,Primer,1,Delivery Department,2025-04-28,in_progress
+22,customer_service,1022,Customer_22,Ghana,Phone Call,i contacted support about my eyeshadow and never received a helpful response.,Eyeshadow,4,Customer Support,2025-10-20,awaiting
+23,product_quality,1023,Customer_23,Kenya,Website,The Blush does not perform as advertised.,Blush,2,Quality Control Department,2025-08-05,resolved
+24,product_quality,1024,Customer_24,Kenya,Website,The Cleanser does not perform as advertised.,Cleanser,2,Quality Control Department,2025-02-25,in_progress
+25,delivery,1025,Customer_25,Ghana,Email,My Concealer order arrived much later than expected.,Concealer,3,Delivery Department,2025-08-15,awaiting
+26,packaging,1026,Customer_26,Algeria,Phone Call,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,5,Packaging Department,2025-03-27,resolved
+27,product_quality,1027,Customer_27,Nigeria,Mobile App,The Sunscreen does not perform as advertised.,Sunscreen,2,Quality Control Department,2025-05-16,resolved
+28,delivery,1028,Customer_28,Ghana,Email,My Concealer order arrived much later than expected.,Concealer,2,Delivery Department,2025-10-24,awaiting
+29,product_quality,1029,Customer_29,Algeria,Phone Call,the eyeshadow does not perform as advertised.,Eyeshadow,3,Quality Control Department,2025-01-30,awaiting
+30,packaging,1030,Customer_30,Kenya,Email,the foundation arrived with damaged packaging and i am disappointed. please help!!!,Foundation,5,Packaging Department,2025-10-19,in_progress
+31,product_quality,1031,Customer_31,Egypt,Website,The Cleanser does not perform as advertised.,Cleanser,3,Quality Control Department,2025-05-14,in_progress
+32,refund,1032,Customer_32,Morocco,Mobile App,I requested a refund for my Eyeshadow but have not received it.,Eyeshadow,4,Customer Support,2025-06-11,in_progress
+33,packaging,1033,Customer_33,Ghana,Website,The Primer arrived with damaged packaging and I am disappointed.,Primer,1,Packaging Department,2025-03-09,resolved
+34,customer_service,1034,Customer_34,Tunisia,Website,I contacted support about my Sunscreen and never received a helpful response.,Sunscreen,4,Customer Support,2025-11-10,awaiting
+35,product_quality,1035,Customer_35,Ghana,Website,The Kohl does not perform as advertised.,Kohl,4,Quality Control Department,2025-03-01,in_progress
+36,billing,1036,Customer_36,Ghana,Website,I was charged twice for my Foundation purchase.,Foundation,4,Finance Department,2025-09-16,resolved
+37,delivery,1037,Customer_37,Nigeria,Website,my cleanser order arrived much later than expected.,Cleanser,3,Delivery Department,2025-03-08,awaiting
+38,customer_service,1038,Customer_38,Nigeria,Email,I contacted support about my Foundation and never received a helpful response.,Foundation,3,Customer Support,2025-02-08,awaiting
+39,customer_service,1039,Customer_39,Kenya,Phone Call,i contacted support about my concealer and never received a helpful response.,Concealer,3,Customer Support,2025-01-22,resolved
+40,product_quality,1040,Customer_40,Nigeria,Website,The Cleanser does not perform as advertised.,Cleanser,2,Quality Control Department,2025-10-14,resolved
+41,customer_service,1041,Customer_41,Algeria,Phone Call,I contacted support about my Foundation and never received a helpful response.,Foundation,2,Customer Support,2025-07-31,in_progress
+42,packaging,1042,Customer_42,Tunisia,Phone Call,The Eyeshadow arrived with damaged packaging and I am disappointed.,Eyeshadow,4,Packaging Department,2025-05-17,in_progress
+43,billing,1043,Customer_43,Ghana,Mobile App,I was charged twice for my Lipstick purchase. please help!!!,Lipstick,3,Finance Department,2025-06-29,resolved
+44,customer_service,1044,Customer_44,Morocco,Email,I contacted support about my Sunscreen and never received a helpful response.,Sunscreen,3,Customer Support,2025-05-23,resolved
+45,refund,1045,Customer_45,Nigeria,Email,I requested a refund for my Body Lotion but have not received it.,Body Lotion,3,Customer Support,2025-05-14,in_progress
+46,product_quality,1046,Customer_46,Algeria,Website,the eyeliner does not perform as advertised.,Eyeliner,3,Quality Control Department,2025-08-12,awaiting
+47,customer_service,1047,Customer_47,Tunisia,Mobile App,I contacted support about my Lipstick and never received a helpful response.,Lipstick,2,Customer Support,2025-01-01,awaiting
+48,customer_service,1048,Customer_48,Ghana,Website,I contacted support about my Concealer and never received a helpful response.,Concealer,4,Customer Support,2025-08-09,in_progress
+49,customer_service,1049,Customer_49,Morocco,Website,I contacted support about my Eyeshadow and never received a helpful response.,Eyeshadow,2,Customer Support,2025-12-08,resolved
+50,delivery,1050,Customer_50,Kenya,Phone Call,My Eyeliner order arrived much later than expected.,Eyeliner,4,Delivery Department,2025-11-12,awaiting
+51,delivery,1051,Customer_51,Algeria,Website,My Concealer order arrived much later than expected.,Concealer,2,Delivery Department,2025-08-27,resolved
+52,product_quality,1052,Customer_52,Tunisia,Phone Call,The Sunscreen does not perform as advertised.,Sunscreen,5,Quality Control Department,2025-12-04,in_progress
+53,delivery,1053,Customer_53,Algeria,Phone Call,My Kohl order arrived much later than expected.,Kohl,4,Delivery Department,2025-12-11,resolved
+54,delivery,1054,Customer_54,Egypt,Email,my sunscreen order arrived much later than expected. please help!!!,Sunscreen,5,Delivery Department,2025-08-22,resolved
+55,customer_service,1055,Customer_55,Ghana,Phone Call,I contacted support about my Primer and never received a helpful response.,Primer,3,Customer Support,2025-12-02,awaiting
+56,packaging,1056,Customer_56,Tunisia,Mobile App,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,4,Packaging Department,2025-01-26,awaiting
+57,delivery,1057,Customer_57,Egypt,Website,My Lipstick order arrived much later than expected.,Lipstick,4,Delivery Department,2025-08-15,awaiting
+58,billing,1058,Customer_58,Ghana,Mobile App,I was charged twice for my Concealer purchase.,Concealer,3,Finance Department,2025-08-19,resolved
+59,billing,1059,Customer_59,Ghana,Website,I was charged twice for my Kohl purchase.,Kohl,3,Finance Department,2025-08-14,in_progress
+60,refund,1060,Customer_60,Ghana,Phone Call,I requested a refund for my Sunscreen but have not received it.,Sunscreen,3,Customer Support,2025-04-29,resolved
+61,refund,1061,Customer_61,Kenya,Email,i requested a refund for my sunscreen but have not received it.,Sunscreen,3,Customer Support,2025-04-16,resolved
+62,product_quality,1062,Customer_62,Egypt,Mobile App,The Primer does not perform as advertised. please help!!!,Primer,5,Quality Control Department,2025-09-02,in_progress
+63,customer_service,1063,Customer_63,Kenya,Phone Call,I contacted support about my Eyeliner and never received a helpful response.,Eyeliner,5,Customer Support,2025-09-07,in_progress
+64,delivery,1064,Customer_64,Kenya,Phone Call,my blush order arrived much later than expected.,Blush,4,Delivery Department,2025-08-28,in_progress
+65,customer_service,1065,Customer_65,Nigeria,Email,i contacted support about my concealer and never received a helpful response.,Concealer,3,Customer Support,2025-11-26,resolved
+66,packaging,1066,Customer_66,Kenya,Website,The Blush arrived with damaged packaging and I am disappointed.,Blush,3,Packaging Department,2025-06-22,resolved
+67,delivery,1067,Customer_67,Egypt,Email,My Body Lotion order arrived much later than expected.,Body Lotion,1,Delivery Department,2025-06-29,in_progress
+68,refund,1068,Customer_68,Algeria,Email,i requested a refund for my kohl but have not received it. please help!!!,Kohl,2,Customer Support,2025-11-15,in_progress
+69,delivery,1069,Customer_69,Tunisia,Website,My Blush order arrived much later than expected.,Blush,2,Delivery Department,2025-07-08,in_progress
+70,refund,1070,Customer_70,Egypt,Email,I requested a refund for my Lipstick but have not received it.,Lipstick,3,Customer Support,2025-06-09,awaiting
+71,refund,1071,Customer_71,Tunisia,Phone Call,I requested a refund for my Body Lotion but have not received it.,Body Lotion,1,Customer Support,2025-02-22,awaiting
+72,billing,1072,Customer_72,Algeria,Email,I was charged twice for my Kohl purchase.,Kohl,5,Finance Department,2025-06-27,awaiting
+73,product_quality,1073,Customer_73,Kenya,Mobile App,the eyeshadow does not perform as advertised.,Eyeshadow,1,Quality Control Department,2025-02-24,resolved
+74,customer_service,1074,Customer_74,Ghana,Website,I contacted support about my Kohl and never received a helpful response.,Kohl,2,Customer Support,2025-11-12,awaiting
+75,billing,1075,Customer_75,Algeria,Phone Call,I was charged twice for my Blush purchase.,Blush,3,Finance Department,2025-02-14,resolved
+76,customer_service,1076,Customer_76,Morocco,Email,I contacted support about my Sunscreen and never received a helpful response.,Sunscreen,4,Customer Support,2025-09-11,resolved
+77,delivery,1077,Customer_77,Egypt,Website,My Sunscreen order arrived much later than expected.,Sunscreen,3,Delivery Department,2025-10-12,in_progress
+78,product_quality,1078,Customer_78,Algeria,Phone Call,the sunscreen does not perform as advertised.,Sunscreen,3,Quality Control Department,2025-12-20,resolved
+79,refund,1079,Customer_79,Kenya,Phone Call,I requested a refund for my Blush but have not received it. please help!!!,Blush,3,Customer Support,2025-06-06,awaiting
+80,product_quality,1080,Customer_80,Egypt,Website,The Blush does not perform as advertised.,Blush,5,Quality Control Department,2025-06-30,awaiting
+81,product_quality,1081,Customer_81,Nigeria,Phone Call,The Eyeliner does not perform as advertised.,Eyeliner,2,Quality Control Department,2025-04-09,in_progress
+82,billing,1082,Customer_82,Morocco,Email,I was charged twice for my Eyeliner purchase.,Eyeliner,3,Finance Department,2025-04-10,resolved
+83,delivery,1083,Customer_83,Nigeria,Email,My Foundation order arrived much later than expected.,Foundation,2,Delivery Department,2025-10-11,resolved
+84,refund,1084,Customer_84,Nigeria,Website,I requested a refund for my Foundation but have not received it.,Foundation,2,Customer Support,2025-08-29,resolved
+85,product_quality,1085,Customer_85,Nigeria,Email,The Foundation does not perform as advertised.,Foundation,5,Quality Control Department,2025-07-25,resolved
+86,packaging,1086,Customer_86,Morocco,Email,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,4,Packaging Department,2025-05-08,in_progress
+87,product_quality,1087,Customer_87,Egypt,Mobile App,The Body Lotion does not perform as advertised.,Body Lotion,2,Quality Control Department,2025-08-19,resolved
+88,delivery,1088,Customer_88,Egypt,Email,My Primer order arrived much later than expected.,Primer,4,Delivery Department,2025-04-17,awaiting
+89,delivery,1089,Customer_89,Ghana,Email,my kohl order arrived much later than expected.,Kohl,3,Delivery Department,2025-07-29,resolved
+90,refund,1090,Customer_90,Tunisia,Mobile App,I requested a refund for my Blush but have not received it.,Blush,4,Customer Support,2025-02-06,awaiting
+91,delivery,1091,Customer_91,Ghana,Mobile App,My Eyeliner order arrived much later than expected.,Eyeliner,4,Delivery Department,2025-02-28,awaiting
+92,delivery,1092,Customer_92,Ghana,Website,My Foundation order arrived much later than expected.,Foundation,1,Delivery Department,2025-11-01,awaiting
+93,customer_service,1093,Customer_93,Kenya,Website,I contacted support about my Eyeliner and never received a helpful response.,Eyeliner,3,Customer Support,2025-09-14,awaiting
+94,product_quality,1094,Customer_94,Egypt,Website,The Lipstick does not perform as advertised.,Lipstick,4,Quality Control Department,2025-01-14,in_progress
+95,delivery,1095,Customer_95,Algeria,Website,My Kohl order arrived much later than expected.,Kohl,5,Delivery Department,2025-10-23,in_progress
+96,billing,1096,Customer_96,Ghana,Mobile App,I was charged twice for my Foundation purchase.,Foundation,5,Finance Department,2025-11-22,resolved
+97,customer_service,1097,Customer_97,Algeria,Phone Call,I contacted support about my Blush and never received a helpful response.,Blush,4,Customer Support,2025-06-18,resolved
+98,refund,1098,Customer_98,Nigeria,Mobile App,I requested a refund for my Eyeliner but have not received it.,Eyeliner,4,Customer Support,2025-02-15,resolved
+99,delivery,1099,Customer_99,Nigeria,Mobile App,My Lipstick order arrived much later than expected.,Lipstick,3,Delivery Department,2025-07-31,in_progress
+100,delivery,1100,Customer_100,Nigeria,Phone Call,My Eyeshadow order arrived much later than expected.,Eyeshadow,3,Delivery Department,2025-05-17,awaiting
+101,packaging,1101,Customer_101,Tunisia,Phone Call,The Eyeliner arrived with damaged packaging and I am disappointed.,Eyeliner,2,Packaging Department,2025-12-30,in_progress
+102,delivery,1102,Customer_102,Nigeria,Mobile App,My Cleanser order arrived much later than expected.,Cleanser,5,Delivery Department,2025-03-02,awaiting
+103,customer_service,1103,Customer_103,Kenya,Mobile App,I contacted support about my Blush and never received a helpful response.,Blush,4,Customer Support,2025-08-30,in_progress
+104,product_quality,1104,Customer_104,Ghana,Email,The Foundation does not perform as advertised.,Foundation,3,Quality Control Department,2025-05-22,resolved
+105,delivery,1105,Customer_105,Algeria,Mobile App,My Concealer order arrived much later than expected. please help!!!,Concealer,4,Delivery Department,2025-03-18,resolved
+106,product_quality,1106,Customer_106,Morocco,Phone Call,The Eyeshadow does not perform as advertised.,Eyeshadow,3,Quality Control Department,2025-12-24,in_progress
+107,product_quality,1107,Customer_107,Kenya,Mobile App,The Sunscreen does not perform as advertised.,Sunscreen,3,Quality Control Department,2025-07-17,awaiting
+108,billing,1108,Customer_108,Egypt,Website,I was charged twice for my Kohl purchase.,Kohl,1,Finance Department,2025-02-21,resolved
+109,packaging,1109,Customer_109,Ghana,Email,the blush arrived with damaged packaging and i am disappointed.,Blush,5,Packaging Department,2025-08-29,resolved
+110,delivery,1110,Customer_110,Algeria,Mobile App,My Body Lotion order arrived much later than expected.,Body Lotion,5,Delivery Department,2025-06-12,awaiting
+111,refund,1111,Customer_111,Tunisia,Website,I requested a refund for my Blush but have not received it. please help!!!,Blush,1,Customer Support,2025-04-27,awaiting
+112,packaging,1112,Customer_112,Ghana,Website,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,2,Packaging Department,2025-01-15,in_progress
+113,delivery,1113,Customer_113,Egypt,Mobile App,My Cleanser order arrived much later than expected.,Cleanser,2,Delivery Department,2025-10-17,awaiting
+114,billing,1114,Customer_114,Tunisia,Phone Call,I was charged twice for my Foundation purchase.,Foundation,3,Finance Department,2025-09-12,awaiting
+115,packaging,1115,Customer_115,Algeria,Mobile App,The Blush arrived with damaged packaging and I am disappointed.,Blush,4,Packaging Department,2025-05-28,awaiting
+116,product_quality,1116,Customer_116,Tunisia,Mobile App,The Lipstick does not perform as advertised.,Lipstick,3,Quality Control Department,2025-12-20,resolved
+117,product_quality,1117,Customer_117,Ghana,Mobile App,The Eyeliner does not perform as advertised.,Eyeliner,3,Quality Control Department,2025-10-20,resolved
+118,product_quality,1118,Customer_118,Nigeria,Email,the eyeliner does not perform as advertised.,Eyeliner,3,Quality Control Department,2025-11-07,awaiting
+119,product_quality,1119,Customer_119,Ghana,Phone Call,The Eyeliner does not perform as advertised.,Eyeliner,4,Quality Control Department,2025-11-14,resolved
+120,refund,1120,Customer_120,Tunisia,Email,I requested a refund for my Kohl but have not received it.,Kohl,2,Customer Support,2025-06-08,resolved
+121,packaging,1121,Customer_121,Tunisia,Mobile App,The Eyeshadow arrived with damaged packaging and I am disappointed.,Eyeshadow,3,Packaging Department,2025-03-31,in_progress
+122,packaging,1122,Customer_122,Morocco,Phone Call,The Concealer arrived with damaged packaging and I am disappointed.,Concealer,3,Packaging Department,2025-05-12,resolved
+123,customer_service,1123,Customer_123,Nigeria,Phone Call,I contacted support about my Eyeliner and never received a helpful response.,Eyeliner,2,Customer Support,2025-04-26,awaiting
+124,billing,1124,Customer_124,Algeria,Mobile App,I was charged twice for my Body Lotion purchase.,Body Lotion,3,Finance Department,2025-01-08,resolved
+125,product_quality,1125,Customer_125,Kenya,Website,The Blush does not perform as advertised.,Blush,3,Quality Control Department,2025-02-25,awaiting
+126,delivery,1126,Customer_126,Egypt,Phone Call,My Cleanser order arrived much later than expected.,Cleanser,3,Delivery Department,2025-11-28,in_progress
+127,refund,1127,Customer_127,Ghana,Email,I requested a refund for my Blush but have not received it.,Blush,3,Customer Support,2025-01-20,resolved
+128,customer_service,1128,Customer_128,Kenya,Website,i contacted support about my lipstick and never received a helpful response.,Lipstick,2,Customer Support,2025-12-10,awaiting
+129,refund,1129,Customer_129,Kenya,Email,I requested a refund for my Concealer but have not received it.,Concealer,2,Customer Support,2025-09-08,awaiting
+130,product_quality,1130,Customer_130,Ghana,Website,the eyeliner does not perform as advertised.,Eyeliner,3,Quality Control Department,2025-02-20,awaiting
+131,product_quality,1131,Customer_131,Nigeria,Mobile App,The Kohl does not perform as advertised.,Kohl,2,Quality Control Department,2025-02-16,awaiting
+132,delivery,1132,Customer_132,Ghana,Phone Call,My Kohl order arrived much later than expected. please help!!!,Kohl,4,Delivery Department,2025-10-17,in_progress
+133,packaging,1133,Customer_133,Morocco,Phone Call,The Concealer arrived with damaged packaging and I am disappointed.,Concealer,5,Packaging Department,2025-11-02,in_progress
+134,delivery,1134,Customer_134,Nigeria,Email,My Foundation order arrived much later than expected.,Foundation,4,Delivery Department,2025-03-09,in_progress
+135,delivery,1135,Customer_135,Ghana,Mobile App,My Sunscreen order arrived much later than expected. please help!!!,Sunscreen,3,Delivery Department,2025-09-27,in_progress
+136,billing,1136,Customer_136,Kenya,Phone Call,I was charged twice for my Blush purchase.,Blush,3,Finance Department,2025-11-11,in_progress
+137,billing,1137,Customer_137,Nigeria,Mobile App,I was charged twice for my Kohl purchase.,Kohl,5,Finance Department,2025-07-25,resolved
+138,refund,1138,Customer_138,Morocco,Phone Call,I requested a refund for my Blush but have not received it.,Blush,5,Customer Support,2025-02-03,in_progress
+139,delivery,1139,Customer_139,Egypt,Website,My Kohl order arrived much later than expected.,Kohl,3,Delivery Department,2025-08-21,awaiting
+140,refund,1140,Customer_140,Algeria,Phone Call,I requested a refund for my Lipstick but have not received it.,Lipstick,4,Customer Support,2025-08-09,resolved
+141,customer_service,1141,Customer_141,Nigeria,Website,I contacted support about my Body Lotion and never received a helpful response.,Body Lotion,3,Customer Support,2025-08-07,resolved
+142,refund,1142,Customer_142,Nigeria,Email,I requested a refund for my Eyeshadow but have not received it.,Eyeshadow,3,Customer Support,2025-02-17,resolved
+143,packaging,1143,Customer_143,Egypt,Website,The Eyeshadow arrived with damaged packaging and I am disappointed.,Eyeshadow,3,Packaging Department,2025-12-10,in_progress
+144,product_quality,1144,Customer_144,Nigeria,Website,The Kohl does not perform as advertised.,Kohl,5,Quality Control Department,2025-11-04,resolved
+145,delivery,1145,Customer_145,Algeria,Email,My Primer order arrived much later than expected.,Primer,3,Delivery Department,2025-06-29,awaiting
+146,product_quality,1146,Customer_146,Algeria,Email,The Eyeliner does not perform as advertised.,Eyeliner,5,Quality Control Department,2025-11-08,awaiting
+147,customer_service,1147,Customer_147,Morocco,Website,i contacted support about my eyeliner and never received a helpful response.,Eyeliner,4,Customer Support,2025-01-04,in_progress
+148,customer_service,1148,Customer_148,Nigeria,Email,I contacted support about my Primer and never received a helpful response. please help!!!,Primer,4,Customer Support,2025-09-29,in_progress
+149,product_quality,1149,Customer_149,Algeria,Email,The Blush does not perform as advertised.,Blush,4,Quality Control Department,2025-01-27,in_progress
+150,packaging,1150,Customer_150,Kenya,Mobile App,the primer arrived with damaged packaging and i am disappointed.,Primer,3,Packaging Department,2025-11-07,resolved
+151,product_quality,1151,Customer_151,Morocco,Mobile App,The Sunscreen does not perform as advertised.,Sunscreen,3,Quality Control Department,2025-09-27,awaiting
+152,delivery,1152,Customer_152,Morocco,Phone Call,My Sunscreen order arrived much later than expected.,Sunscreen,1,Delivery Department,2025-03-12,resolved
+153,delivery,1153,Customer_153,Kenya,Phone Call,my lipstick order arrived much later than expected.,Lipstick,2,Delivery Department,2025-09-14,awaiting
+154,customer_service,1154,Customer_154,Nigeria,Mobile App,i contacted support about my eyeshadow and never received a helpful response.,Eyeshadow,1,Customer Support,2025-02-09,resolved
+155,product_quality,1155,Customer_155,Kenya,Email,The Primer does not perform as advertised.,Primer,3,Quality Control Department,2025-06-16,in_progress
+156,billing,1156,Customer_156,Kenya,Email,I was charged twice for my Primer purchase.,Primer,3,Finance Department,2025-05-05,resolved
+157,product_quality,1157,Customer_157,Ghana,Website,the concealer does not perform as advertised.,Concealer,4,Quality Control Department,2025-03-28,in_progress
+158,product_quality,1158,Customer_158,Morocco,Phone Call,The Lipstick does not perform as advertised.,Lipstick,4,Quality Control Department,2025-05-01,in_progress
+159,packaging,1159,Customer_159,Nigeria,Phone Call,The Sunscreen arrived with damaged packaging and I am disappointed.,Sunscreen,4,Packaging Department,2025-11-18,resolved
+160,product_quality,1160,Customer_160,Egypt,Website,The Primer does not perform as advertised.,Primer,5,Quality Control Department,2025-11-18,resolved
+161,packaging,1161,Customer_161,Egypt,Email,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,4,Packaging Department,2025-06-30,awaiting
+162,packaging,1162,Customer_162,Nigeria,Email,The Blush arrived with damaged packaging and I am disappointed. please help!!!,Blush,4,Packaging Department,2025-11-11,awaiting
+163,product_quality,1163,Customer_163,Nigeria,Mobile App,The Blush does not perform as advertised.,Blush,4,Quality Control Department,2025-10-20,awaiting
+164,delivery,1164,Customer_164,Nigeria,Website,My Primer order arrived much later than expected.,Primer,1,Delivery Department,2026-01-01,in_progress
+165,product_quality,1165,Customer_165,Egypt,Phone Call,the foundation does not perform as advertised.,Foundation,5,Quality Control Department,2025-07-06,resolved
+166,customer_service,1166,Customer_166,Algeria,Website,I contacted support about my Body Lotion and never received a helpful response.,Body Lotion,3,Customer Support,2025-02-03,resolved
+167,packaging,1167,Customer_167,Egypt,Phone Call,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,5,Packaging Department,2025-06-20,in_progress
+168,product_quality,1168,Customer_168,Tunisia,Mobile App,The Foundation does not perform as advertised.,Foundation,4,Quality Control Department,2025-03-08,awaiting
+169,refund,1169,Customer_169,Algeria,Phone Call,I requested a refund for my Lipstick but have not received it.,Lipstick,4,Customer Support,2025-12-10,awaiting
+170,customer_service,1170,Customer_170,Egypt,Website,I contacted support about my Kohl and never received a helpful response.,Kohl,4,Customer Support,2025-01-10,resolved
+171,delivery,1171,Customer_171,Ghana,Phone Call,My Sunscreen order arrived much later than expected.,Sunscreen,2,Delivery Department,2025-02-09,resolved
+172,customer_service,1172,Customer_172,Egypt,Email,I contacted support about my Lipstick and never received a helpful response.,Lipstick,4,Customer Support,2025-12-05,resolved
+173,customer_service,1173,Customer_173,Algeria,Phone Call,i contacted support about my primer and never received a helpful response.,Primer,2,Customer Support,2025-08-13,in_progress
+174,product_quality,1174,Customer_174,Algeria,Mobile App,The Kohl does not perform as advertised.,Kohl,4,Quality Control Department,2025-04-30,awaiting
+175,delivery,1175,Customer_175,Egypt,Mobile App,My Blush order arrived much later than expected.,Blush,4,Delivery Department,2025-08-25,resolved
+176,billing,1176,Customer_176,Algeria,Phone Call,I was charged twice for my Concealer purchase.,Concealer,4,Finance Department,2025-05-09,in_progress
+177,refund,1177,Customer_177,Algeria,Email,I requested a refund for my Eyeshadow but have not received it.,Eyeshadow,5,Customer Support,2025-05-26,in_progress
+178,billing,1178,Customer_178,Nigeria,Phone Call,I was charged twice for my Eyeliner purchase.,Eyeliner,4,Finance Department,2025-08-19,resolved
+179,customer_service,1179,Customer_179,Nigeria,Website,i contacted support about my body lotion and never received a helpful response.,Body Lotion,2,Customer Support,2025-04-25,in_progress
+180,delivery,1180,Customer_180,Ghana,Email,My Lipstick order arrived much later than expected.,Lipstick,4,Delivery Department,2025-05-27,resolved
+181,refund,1181,Customer_181,Nigeria,Email,I requested a refund for my Foundation but have not received it.,Foundation,4,Customer Support,2025-05-12,in_progress
+182,customer_service,1182,Customer_182,Algeria,Website,I contacted support about my Concealer and never received a helpful response.,Concealer,3,Customer Support,2025-05-02,resolved
+183,packaging,1183,Customer_183,Nigeria,Mobile App,The Sunscreen arrived with damaged packaging and I am disappointed.,Sunscreen,3,Packaging Department,2025-11-02,awaiting
+184,packaging,1184,Customer_184,Nigeria,Website,The Concealer arrived with damaged packaging and I am disappointed.,Concealer,3,Packaging Department,2025-05-04,awaiting
+185,product_quality,1185,Customer_185,Egypt,Email,The Kohl does not perform as advertised.,Kohl,3,Quality Control Department,2025-07-19,resolved
+186,packaging,1186,Customer_186,Algeria,Email,The Body Lotion arrived with damaged packaging and I am disappointed.,Body Lotion,1,Packaging Department,2025-06-26,in_progress
+187,billing,1187,Customer_187,Ghana,Email,i was charged twice for my kohl purchase.,Kohl,4,Finance Department,2025-06-30,awaiting
+188,delivery,1188,Customer_188,Tunisia,Mobile App,My Kohl order arrived much later than expected.,Kohl,3,Delivery Department,2025-11-20,in_progress
+189,billing,1189,Customer_189,Ghana,Email,I was charged twice for my Lipstick purchase.,Lipstick,1,Finance Department,2025-04-13,in_progress
+190,delivery,1190,Customer_190,Morocco,Email,My Eyeliner order arrived much later than expected.,Eyeliner,3,Delivery Department,2025-11-28,in_progress
+191,delivery,1191,Customer_191,Morocco,Mobile App,My Cleanser order arrived much later than expected.,Cleanser,2,Delivery Department,2025-07-24,awaiting
+192,product_quality,1192,Customer_192,Morocco,Website,The Body Lotion does not perform as advertised.,Body Lotion,4,Quality Control Department,2025-02-12,awaiting
+193,product_quality,1193,Customer_193,Morocco,Email,The Body Lotion does not perform as advertised.,Body Lotion,3,Quality Control Department,2025-02-10,resolved
+194,refund,1194,Customer_194,Kenya,Website,I requested a refund for my Eyeliner but have not received it.,Eyeliner,2,Customer Support,2025-08-17,in_progress
+195,billing,1195,Customer_195,Algeria,Email,I was charged twice for my Eyeshadow purchase.,Eyeshadow,4,Finance Department,2025-02-08,awaiting
+196,refund,1196,Customer_196,Nigeria,Phone Call,I requested a refund for my Eyeshadow but have not received it.,Eyeshadow,2,Customer Support,2025-11-08,awaiting
+197,billing,1197,Customer_197,Morocco,Mobile App,i was charged twice for my cleanser purchase.,Cleanser,4,Finance Department,2025-10-18,in_progress
+198,refund,1198,Customer_198,Nigeria,Phone Call,I requested a refund for my Kohl but have not received it.,Kohl,3,Customer Support,2025-09-29,resolved
+199,product_quality,1199,Customer_199,Ghana,Mobile App,The Kohl does not perform as advertised.,Kohl,1,Quality Control Department,2025-09-23,resolved
+200,customer_service,1200,Customer_200,Egypt,Website,I contacted support about my Lipstick and never received a helpful response.,Lipstick,3,Customer Support,2025-12-22,resolved
+201,delivery,1201,Customer_201,Kenya,Email,My Foundation order arrived much later than expected.,Foundation,5,Delivery Department,2025-12-16,resolved
+202,refund,1202,Customer_202,Ghana,Phone Call,I requested a refund for my Lipstick but have not received it.,Lipstick,3,Customer Support,2025-07-05,awaiting
+203,delivery,1203,Customer_203,Morocco,Website,My Sunscreen order arrived much later than expected.,Sunscreen,3,Delivery Department,2025-08-28,awaiting
+204,packaging,1204,Customer_204,Kenya,Mobile App,the lipstick arrived with damaged packaging and i am disappointed.,Lipstick,4,Packaging Department,2025-07-29,awaiting
+205,packaging,1205,Customer_205,Morocco,Phone Call,The Eyeshadow arrived with damaged packaging and I am disappointed.,Eyeshadow,4,Packaging Department,2025-10-10,awaiting
+206,product_quality,1206,Customer_206,Nigeria,Phone Call,The Foundation does not perform as advertised.,Foundation,1,Quality Control Department,2025-06-05,in_progress
+207,packaging,1207,Customer_207,Algeria,Email,The Sunscreen arrived with damaged packaging and I am disappointed.,Sunscreen,5,Packaging Department,2025-05-09,in_progress
+208,refund,1208,Customer_208,Nigeria,Phone Call,I requested a refund for my Concealer but have not received it.,Concealer,4,Customer Support,2025-10-31,awaiting
+209,packaging,1209,Customer_209,Egypt,Email,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,3,Packaging Department,2025-01-15,in_progress
+210,packaging,1210,Customer_210,Egypt,Mobile App,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,2,Packaging Department,2025-11-13,awaiting
+211,packaging,1211,Customer_211,Ghana,Mobile App,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,3,Packaging Department,2025-06-02,resolved
+212,packaging,1212,Customer_212,Morocco,Phone Call,The Cleanser arrived with damaged packaging and I am disappointed.,Cleanser,3,Packaging Department,2025-06-10,awaiting
+213,delivery,1213,Customer_213,Egypt,Email,My Eyeshadow order arrived much later than expected.,Eyeshadow,3,Delivery Department,2025-06-13,in_progress
+214,product_quality,1214,Customer_214,Kenya,Mobile App,The Eyeliner does not perform as advertised.,Eyeliner,1,Quality Control Department,2025-05-08,in_progress
+215,billing,1215,Customer_215,Egypt,Mobile App,I was charged twice for my Primer purchase.,Primer,2,Finance Department,2025-09-13,resolved
+216,product_quality,1216,Customer_216,Ghana,Website,The Lipstick does not perform as advertised.,Lipstick,5,Quality Control Department,2025-01-25,in_progress
+217,delivery,1217,Customer_217,Egypt,Email,My Primer order arrived much later than expected.,Primer,3,Delivery Department,2025-02-25,resolved
+218,packaging,1218,Customer_218,Kenya,Email,The Eyeliner arrived with damaged packaging and I am disappointed.,Eyeliner,3,Packaging Department,2025-10-19,awaiting
+219,delivery,1219,Customer_219,Egypt,Website,My Concealer order arrived much later than expected.,Concealer,3,Delivery Department,2025-11-16,awaiting
+220,refund,1220,Customer_220,Morocco,Website,I requested a refund for my Foundation but have not received it.,Foundation,4,Customer Support,2025-03-15,in_progress
+221,refund,1221,Customer_221,Morocco,Mobile App,I requested a refund for my Body Lotion but have not received it. please help!!!,Body Lotion,2,Customer Support,2025-09-23,resolved
+222,packaging,1222,Customer_222,Kenya,Website,the concealer arrived with damaged packaging and i am disappointed.,Concealer,3,Packaging Department,2025-10-31,resolved
+223,product_quality,1223,Customer_223,Algeria,Email,The Concealer does not perform as advertised.,Concealer,3,Quality Control Department,2025-07-08,resolved
+224,refund,1224,Customer_224,Tunisia,Email,I requested a refund for my Body Lotion but have not received it.,Body Lotion,4,Customer Support,2025-11-02,resolved
+225,delivery,1225,Customer_225,Tunisia,Email,My Kohl order arrived much later than expected.,Kohl,3,Delivery Department,2025-10-26,resolved
+226,packaging,1226,Customer_226,Algeria,Phone Call,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,3,Packaging Department,2025-01-17,awaiting
+227,customer_service,1227,Customer_227,Kenya,Phone Call,I contacted support about my Lipstick and never received a helpful response.,Lipstick,3,Customer Support,2025-07-30,awaiting
+228,billing,1228,Customer_228,Ghana,Phone Call,I was charged twice for my Blush purchase.,Blush,1,Finance Department,2025-10-15,resolved
+229,customer_service,1229,Customer_229,Egypt,Website,I contacted support about my Blush and never received a helpful response.,Blush,2,Customer Support,2025-10-07,resolved
+230,refund,1230,Customer_230,Ghana,Phone Call,I requested a refund for my Kohl but have not received it.,Kohl,4,Customer Support,2025-05-23,awaiting
+231,delivery,1231,Customer_231,Kenya,Website,My Eyeliner order arrived much later than expected.,Eyeliner,4,Delivery Department,2025-09-03,resolved
+232,product_quality,1232,Customer_232,Kenya,Website,The Eyeliner does not perform as advertised.,Eyeliner,3,Quality Control Department,2025-03-16,resolved
+233,packaging,1233,Customer_233,Kenya,Phone Call,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,2,Packaging Department,2025-04-14,awaiting
+234,delivery,1234,Customer_234,Egypt,Phone Call,My Concealer order arrived much later than expected.,Concealer,4,Delivery Department,2025-05-05,in_progress
+235,refund,1235,Customer_235,Morocco,Mobile App,I requested a refund for my Concealer but have not received it.,Concealer,2,Customer Support,2025-02-21,awaiting
+236,billing,1236,Customer_236,Tunisia,Mobile App,I was charged twice for my Cleanser purchase.,Cleanser,2,Finance Department,2025-09-02,awaiting
+237,delivery,1237,Customer_237,Nigeria,Phone Call,My Eyeliner order arrived much later than expected.,Eyeliner,5,Delivery Department,2025-10-01,awaiting
+238,billing,1238,Customer_238,Ghana,Email,I was charged twice for my Cleanser purchase.,Cleanser,5,Finance Department,2025-07-23,resolved
+239,delivery,1239,Customer_239,Nigeria,Website,My Eyeliner order arrived much later than expected. please help!!!,Eyeliner,3,Delivery Department,2025-05-26,resolved
+240,customer_service,1240,Customer_240,Egypt,Mobile App,I contacted support about my Concealer and never received a helpful response.,Concealer,2,Customer Support,2025-05-20,in_progress
+241,billing,1241,Customer_241,Ghana,Email,I was charged twice for my Eyeshadow purchase.,Eyeshadow,2,Finance Department,2025-06-22,resolved
+242,product_quality,1242,Customer_242,Algeria,Mobile App,The Sunscreen does not perform as advertised.,Sunscreen,5,Quality Control Department,2025-09-21,resolved
+243,packaging,1243,Customer_243,Ghana,Email,the kohl arrived with damaged packaging and i am disappointed.,Kohl,3,Packaging Department,2025-05-14,resolved
+244,delivery,1244,Customer_244,Nigeria,Website,My Eyeliner order arrived much later than expected.,Eyeliner,4,Delivery Department,2025-12-01,resolved
+245,refund,1245,Customer_245,Tunisia,Website,I requested a refund for my Cleanser but have not received it.,Cleanser,2,Customer Support,2025-12-20,in_progress
+246,refund,1246,Customer_246,Kenya,Phone Call,I requested a refund for my Eyeliner but have not received it.,Eyeliner,5,Customer Support,2025-08-21,awaiting
+247,customer_service,1247,Customer_247,Egypt,Phone Call,I contacted support about my Eyeshadow and never received a helpful response.,Eyeshadow,3,Customer Support,2025-05-07,awaiting
+248,billing,1248,Customer_248,Egypt,Email,I was charged twice for my Lipstick purchase.,Lipstick,3,Finance Department,2025-02-01,awaiting
+249,customer_service,1249,Customer_249,Egypt,Mobile App,I contacted support about my Sunscreen and never received a helpful response.,Sunscreen,3,Customer Support,2025-03-01,awaiting
+250,delivery,1250,Customer_250,Nigeria,Mobile App,My Primer order arrived much later than expected.,Primer,3,Delivery Department,2025-03-09,awaiting
+251,product_quality,1251,Customer_251,Tunisia,Email,the primer does not perform as advertised.,Primer,4,Quality Control Department,2025-07-22,resolved
+252,billing,1252,Customer_252,Nigeria,Email,I was charged twice for my Sunscreen purchase. please help!!!,Sunscreen,3,Finance Department,2025-02-05,resolved
+253,packaging,1253,Customer_253,Tunisia,Mobile App,The Body Lotion arrived with damaged packaging and I am disappointed.,Body Lotion,4,Packaging Department,2025-07-11,resolved
+254,product_quality,1254,Customer_254,Egypt,Phone Call,The Body Lotion does not perform as advertised.,Body Lotion,4,Quality Control Department,2025-12-01,resolved
+255,packaging,1255,Customer_255,Algeria,Email,The Concealer arrived with damaged packaging and I am disappointed.,Concealer,5,Packaging Department,2025-01-12,resolved
+256,product_quality,1256,Customer_256,Kenya,Website,The Concealer does not perform as advertised.,Concealer,2,Quality Control Department,2025-03-21,resolved
+257,delivery,1257,Customer_257,Nigeria,Phone Call,my lipstick order arrived much later than expected.,Lipstick,4,Delivery Department,2025-04-16,in_progress
+258,packaging,1258,Customer_258,Ghana,Email,The Cleanser arrived with damaged packaging and I am disappointed.,Cleanser,5,Packaging Department,2025-07-25,resolved
+259,delivery,1259,Customer_259,Morocco,Phone Call,My Sunscreen order arrived much later than expected.,Sunscreen,2,Delivery Department,2025-10-22,resolved
+260,product_quality,1260,Customer_260,Tunisia,Phone Call,The Kohl does not perform as advertised.,Kohl,5,Quality Control Department,2025-07-31,resolved
+261,delivery,1261,Customer_261,Tunisia,Mobile App,My Concealer order arrived much later than expected.,Concealer,5,Delivery Department,2025-10-12,resolved
+262,packaging,1262,Customer_262,Morocco,Mobile App,The Eyeshadow arrived with damaged packaging and I am disappointed.,Eyeshadow,4,Packaging Department,2025-07-29,in_progress
+263,delivery,1263,Customer_263,Morocco,Phone Call,My Foundation order arrived much later than expected.,Foundation,5,Delivery Department,2025-08-26,in_progress
+264,product_quality,1264,Customer_264,Ghana,Website,The Body Lotion does not perform as advertised.,Body Lotion,2,Quality Control Department,2025-11-28,in_progress
+265,customer_service,1265,Customer_265,Morocco,Mobile App,i contacted support about my eyeshadow and never received a helpful response.,Eyeshadow,2,Customer Support,2025-12-11,awaiting
+266,refund,1266,Customer_266,Egypt,Phone Call,I requested a refund for my Lipstick but have not received it.,Lipstick,4,Customer Support,2025-09-03,in_progress
+267,customer_service,1267,Customer_267,Ghana,Email,I contacted support about my Eyeshadow and never received a helpful response.,Eyeshadow,2,Customer Support,2025-09-03,in_progress
+268,refund,1268,Customer_268,Morocco,Mobile App,I requested a refund for my Sunscreen but have not received it.,Sunscreen,3,Customer Support,2025-08-27,awaiting
+269,refund,1269,Customer_269,Nigeria,Mobile App,I requested a refund for my Eyeliner but have not received it.,Eyeliner,3,Customer Support,2025-06-13,in_progress
+270,product_quality,1270,Customer_270,Nigeria,Website,the body lotion does not perform as advertised.,Body Lotion,4,Quality Control Department,2025-10-11,awaiting
+271,product_quality,1271,Customer_271,Egypt,Phone Call,The Body Lotion does not perform as advertised.,Body Lotion,2,Quality Control Department,2025-09-13,awaiting
+272,refund,1272,Customer_272,Tunisia,Mobile App,I requested a refund for my Kohl but have not received it.,Kohl,3,Customer Support,2025-08-24,in_progress
+273,billing,1273,Customer_273,Egypt,Email,I was charged twice for my Eyeshadow purchase.,Eyeshadow,3,Finance Department,2025-09-26,in_progress
+274,customer_service,1274,Customer_274,Kenya,Phone Call,I contacted support about my Lipstick and never received a helpful response.,Lipstick,4,Customer Support,2025-11-19,in_progress
+275,packaging,1275,Customer_275,Egypt,Mobile App,the foundation arrived with damaged packaging and i am disappointed.,Foundation,3,Packaging Department,2025-12-04,resolved
+276,packaging,1276,Customer_276,Morocco,Website,The Concealer arrived with damaged packaging and I am disappointed. please help!!!,Concealer,3,Packaging Department,2025-01-09,awaiting
+277,billing,1277,Customer_277,Nigeria,Phone Call,I was charged twice for my Kohl purchase.,Kohl,2,Finance Department,2025-05-04,in_progress
+278,refund,1278,Customer_278,Morocco,Mobile App,I requested a refund for my Eyeliner but have not received it.,Eyeliner,3,Customer Support,2025-08-24,awaiting
+279,delivery,1279,Customer_279,Algeria,Email,My Sunscreen order arrived much later than expected.,Sunscreen,2,Delivery Department,2025-02-17,resolved
+280,product_quality,1280,Customer_280,Nigeria,Mobile App,The Concealer does not perform as advertised.,Concealer,4,Quality Control Department,2025-08-11,awaiting
+281,billing,1281,Customer_281,Nigeria,Phone Call,I was charged twice for my Primer purchase.,Primer,5,Finance Department,2025-04-19,awaiting
+282,customer_service,1282,Customer_282,Morocco,Email,I contacted support about my Blush and never received a helpful response.,Blush,4,Customer Support,2025-04-02,resolved
+283,packaging,1283,Customer_283,Kenya,Email,The Sunscreen arrived with damaged packaging and I am disappointed.,Sunscreen,4,Packaging Department,2025-06-03,in_progress
+284,product_quality,1284,Customer_284,Morocco,Mobile App,The Primer does not perform as advertised.,Primer,5,Quality Control Department,2025-03-13,awaiting
+285,billing,1285,Customer_285,Ghana,Email,I was charged twice for my Concealer purchase.,Concealer,2,Finance Department,2025-06-24,awaiting
+286,billing,1286,Customer_286,Morocco,Mobile App,I was charged twice for my Primer purchase.,Primer,1,Finance Department,2025-09-09,in_progress
+287,delivery,1287,Customer_287,Nigeria,Website,My Body Lotion order arrived much later than expected.,Body Lotion,4,Delivery Department,2025-05-07,awaiting
+288,packaging,1288,Customer_288,Tunisia,Mobile App,The Eyeliner arrived with damaged packaging and I am disappointed.,Eyeliner,4,Packaging Department,2025-06-12,resolved
+289,packaging,1289,Customer_289,Nigeria,Phone Call,The Cleanser arrived with damaged packaging and I am disappointed.,Cleanser,4,Packaging Department,2025-02-14,in_progress
+290,product_quality,1290,Customer_290,Morocco,Email,The Concealer does not perform as advertised.,Concealer,1,Quality Control Department,2025-11-02,awaiting
+291,billing,1291,Customer_291,Tunisia,Phone Call,i was charged twice for my body lotion purchase.,Body Lotion,4,Finance Department,2025-10-20,awaiting
+292,packaging,1292,Customer_292,Ghana,Email,The Body Lotion arrived with damaged packaging and I am disappointed.,Body Lotion,3,Packaging Department,2025-03-27,resolved
+293,delivery,1293,Customer_293,Ghana,Mobile App,My Eyeliner order arrived much later than expected. please help!!!,Eyeliner,2,Delivery Department,2025-11-01,awaiting
+294,delivery,1294,Customer_294,Algeria,Mobile App,my lipstick order arrived much later than expected. please help!!!,Lipstick,3,Delivery Department,2025-06-18,resolved
+295,delivery,1295,Customer_295,Tunisia,Phone Call,My Kohl order arrived much later than expected.,Kohl,3,Delivery Department,2025-09-03,resolved
+296,packaging,1296,Customer_296,Kenya,Phone Call,The Body Lotion arrived with damaged packaging and I am disappointed.,Body Lotion,4,Packaging Department,2025-06-16,resolved
+297,delivery,1297,Customer_297,Egypt,Phone Call,My Body Lotion order arrived much later than expected.,Body Lotion,2,Delivery Department,2025-12-16,awaiting
+298,packaging,1298,Customer_298,Algeria,Email,The Blush arrived with damaged packaging and I am disappointed.,Blush,4,Packaging Department,2025-07-29,awaiting
+299,product_quality,1299,Customer_299,Kenya,Mobile App,The Kohl does not perform as advertised.,Kohl,2,Quality Control Department,2025-02-07,resolved
+300,customer_service,1300,Customer_300,Algeria,Mobile App,I contacted support about my Blush and never received a helpful response.,Blush,5,Customer Support,2025-10-06,in_progress
+301,billing,1301,Customer_301,Nigeria,Email,I was charged twice for my Eyeshadow purchase.,Eyeshadow,3,Finance Department,2025-05-08,awaiting
+302,refund,1302,Customer_302,Tunisia,Mobile App,I requested a refund for my Foundation but have not received it. please help!!!,Foundation,5,Customer Support,2025-06-19,resolved
+303,packaging,1303,Customer_303,Egypt,Phone Call,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,3,Packaging Department,2025-08-17,resolved
+304,product_quality,1304,Customer_304,Nigeria,Mobile App,The Kohl does not perform as advertised.,Kohl,3,Quality Control Department,2025-02-23,resolved
+305,product_quality,1305,Customer_305,Morocco,Website,the lipstick does not perform as advertised.,Lipstick,2,Quality Control Department,2025-08-22,in_progress
+306,product_quality,1306,Customer_306,Morocco,Email,The Eyeshadow does not perform as advertised.,Eyeshadow,4,Quality Control Department,2025-06-03,in_progress
+307,billing,1307,Customer_307,Algeria,Phone Call,i was charged twice for my lipstick purchase.,Lipstick,2,Finance Department,2025-05-05,awaiting
+308,packaging,1308,Customer_308,Algeria,Mobile App,The Foundation arrived with damaged packaging and I am disappointed.,Foundation,3,Packaging Department,2025-11-19,in_progress
+309,delivery,1309,Customer_309,Ghana,Mobile App,My Kohl order arrived much later than expected. please help!!!,Kohl,4,Delivery Department,2025-10-31,resolved
+310,product_quality,1310,Customer_310,Nigeria,Email,The Sunscreen does not perform as advertised.,Sunscreen,4,Quality Control Department,2025-10-02,in_progress
+311,product_quality,1311,Customer_311,Egypt,Website,The Sunscreen does not perform as advertised.,Sunscreen,5,Quality Control Department,2025-11-02,resolved
+312,refund,1312,Customer_312,Ghana,Website,i requested a refund for my primer but have not received it.,Primer,3,Customer Support,2025-11-11,awaiting
+313,packaging,1313,Customer_313,Morocco,Phone Call,The Foundation arrived with damaged packaging and I am disappointed.,Foundation,2,Packaging Department,2025-09-19,resolved
+314,product_quality,1314,Customer_314,Egypt,Phone Call,The Foundation does not perform as advertised.,Foundation,3,Quality Control Department,2025-10-12,in_progress
+315,product_quality,1315,Customer_315,Algeria,Website,The Foundation does not perform as advertised.,Foundation,4,Quality Control Department,2025-01-05,resolved
+316,packaging,1316,Customer_316,Tunisia,Mobile App,The Body Lotion arrived with damaged packaging and I am disappointed.,Body Lotion,3,Packaging Department,2025-08-01,awaiting
+317,customer_service,1317,Customer_317,Ghana,Website,I contacted support about my Blush and never received a helpful response.,Blush,4,Customer Support,2025-01-17,resolved
+318,delivery,1318,Customer_318,Algeria,Mobile App,My Eyeliner order arrived much later than expected.,Eyeliner,4,Delivery Department,2025-10-09,awaiting
+319,packaging,1319,Customer_319,Egypt,Email,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,5,Packaging Department,2025-08-14,awaiting
+320,delivery,1320,Customer_320,Morocco,Email,my body lotion order arrived much later than expected.,Body Lotion,4,Delivery Department,2025-08-19,resolved
+321,delivery,1321,Customer_321,Ghana,Phone Call,My Lipstick order arrived much later than expected.,Lipstick,4,Delivery Department,2025-10-29,awaiting
+322,delivery,1322,Customer_322,Ghana,Phone Call,My Primer order arrived much later than expected.,Primer,2,Delivery Department,2025-01-31,awaiting
+323,delivery,1323,Customer_323,Morocco,Website,My Eyeliner order arrived much later than expected.,Eyeliner,5,Delivery Department,2025-10-21,resolved
+324,customer_service,1324,Customer_324,Algeria,Mobile App,I contacted support about my Concealer and never received a helpful response.,Concealer,2,Customer Support,2025-01-31,resolved
+325,customer_service,1325,Customer_325,Morocco,Phone Call,I contacted support about my Foundation and never received a helpful response.,Foundation,2,Customer Support,2025-12-13,resolved
+326,product_quality,1326,Customer_326,Nigeria,Email,The Primer does not perform as advertised.,Primer,3,Quality Control Department,2025-07-26,awaiting
+327,billing,1327,Customer_327,Algeria,Email,I was charged twice for my Eyeshadow purchase.,Eyeshadow,3,Finance Department,2025-08-23,awaiting
+328,refund,1328,Customer_328,Kenya,Phone Call,I requested a refund for my Eyeshadow but have not received it.,Eyeshadow,3,Customer Support,2025-09-11,resolved
+329,delivery,1329,Customer_329,Kenya,Website,My Eyeliner order arrived much later than expected.,Eyeliner,3,Delivery Department,2025-12-16,in_progress
+330,packaging,1330,Customer_330,Algeria,Phone Call,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,2,Packaging Department,2025-08-14,resolved
+331,packaging,1331,Customer_331,Tunisia,Website,The Body Lotion arrived with damaged packaging and I am disappointed.,Body Lotion,2,Packaging Department,2025-03-23,resolved
+332,packaging,1332,Customer_332,Ghana,Email,The Eyeshadow arrived with damaged packaging and I am disappointed.,Eyeshadow,5,Packaging Department,2025-07-22,awaiting
+333,delivery,1333,Customer_333,Ghana,Mobile App,My Sunscreen order arrived much later than expected.,Sunscreen,2,Delivery Department,2025-02-09,in_progress
+334,product_quality,1334,Customer_334,Algeria,Email,The Concealer does not perform as advertised. please help!!!,Concealer,4,Quality Control Department,2025-08-05,awaiting
+335,packaging,1335,Customer_335,Nigeria,Website,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,4,Packaging Department,2025-07-08,resolved
+336,packaging,1336,Customer_336,Egypt,Email,The Foundation arrived with damaged packaging and I am disappointed.,Foundation,1,Packaging Department,2025-11-09,awaiting
+337,packaging,1337,Customer_337,Kenya,Mobile App,The Eyeshadow arrived with damaged packaging and I am disappointed.,Eyeshadow,2,Packaging Department,2025-04-22,in_progress
+338,customer_service,1338,Customer_338,Kenya,Website,I contacted support about my Foundation and never received a helpful response.,Foundation,3,Customer Support,2025-03-13,in_progress
+339,delivery,1339,Customer_339,Morocco,Email,My Lipstick order arrived much later than expected.,Lipstick,4,Delivery Department,2025-12-04,resolved
+340,delivery,1340,Customer_340,Nigeria,Phone Call,My Primer order arrived much later than expected.,Primer,3,Delivery Department,2025-09-11,resolved
+341,packaging,1341,Customer_341,Nigeria,Website,The Blush arrived with damaged packaging and I am disappointed. please help!!!,Blush,5,Packaging Department,2025-06-12,in_progress
+342,product_quality,1342,Customer_342,Kenya,Email,The Primer does not perform as advertised.,Primer,2,Quality Control Department,2025-01-09,awaiting
+343,packaging,1343,Customer_343,Kenya,Website,The Eyeliner arrived with damaged packaging and I am disappointed.,Eyeliner,5,Packaging Department,2025-11-18,awaiting
+344,product_quality,1344,Customer_344,Egypt,Phone Call,The Body Lotion does not perform as advertised.,Body Lotion,4,Quality Control Department,2025-05-23,in_progress
+345,delivery,1345,Customer_345,Morocco,Mobile App,My Concealer order arrived much later than expected.,Concealer,2,Delivery Department,2025-10-28,awaiting
+346,billing,1346,Customer_346,Tunisia,Phone Call,I was charged twice for my Kohl purchase. please help!!!,Kohl,4,Finance Department,2025-01-30,in_progress
+347,packaging,1347,Customer_347,Tunisia,Phone Call,the body lotion arrived with damaged packaging and i am disappointed.,Body Lotion,1,Packaging Department,2025-03-03,in_progress
+348,refund,1348,Customer_348,Algeria,Website,I requested a refund for my Cleanser but have not received it.,Cleanser,3,Customer Support,2025-03-27,resolved
+349,packaging,1349,Customer_349,Morocco,Mobile App,The Eyeliner arrived with damaged packaging and I am disappointed.,Eyeliner,5,Packaging Department,2025-05-20,awaiting
+350,packaging,1350,Customer_350,Nigeria,Mobile App,The Primer arrived with damaged packaging and I am disappointed.,Primer,3,Packaging Department,2025-10-18,in_progress
+351,product_quality,1351,Customer_351,Nigeria,Phone Call,The Eyeliner does not perform as advertised.,Eyeliner,4,Quality Control Department,2025-09-18,in_progress
+352,packaging,1352,Customer_352,Ghana,Phone Call,The Cleanser arrived with damaged packaging and I am disappointed.,Cleanser,3,Packaging Department,2025-01-19,awaiting
+353,billing,1353,Customer_353,Tunisia,Website,I was charged twice for my Kohl purchase.,Kohl,3,Finance Department,2025-05-19,in_progress
+354,product_quality,1354,Customer_354,Algeria,Email,The Lipstick does not perform as advertised.,Lipstick,2,Quality Control Department,2025-07-25,in_progress
+355,customer_service,1355,Customer_355,Kenya,Email,I contacted support about my Eyeliner and never received a helpful response.,Eyeliner,2,Customer Support,2025-07-08,in_progress
+356,delivery,1356,Customer_356,Kenya,Phone Call,My Eyeliner order arrived much later than expected.,Eyeliner,3,Delivery Department,2025-10-07,in_progress
+357,packaging,1357,Customer_357,Tunisia,Email,the body lotion arrived with damaged packaging and i am disappointed.,Body Lotion,4,Packaging Department,2025-06-21,in_progress
+358,billing,1358,Customer_358,Egypt,Phone Call,I was charged twice for my Body Lotion purchase.,Body Lotion,2,Finance Department,2025-08-03,resolved
+359,customer_service,1359,Customer_359,Algeria,Mobile App,I contacted support about my Foundation and never received a helpful response.,Foundation,5,Customer Support,2025-12-25,resolved
+360,product_quality,1360,Customer_360,Kenya,Email,The Lipstick does not perform as advertised.,Lipstick,4,Quality Control Department,2025-10-31,awaiting
+361,packaging,1361,Customer_361,Morocco,Mobile App,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,3,Packaging Department,2025-12-25,awaiting
+362,delivery,1362,Customer_362,Algeria,Email,My Blush order arrived much later than expected. please help!!!,Blush,2,Delivery Department,2025-03-21,in_progress
+363,packaging,1363,Customer_363,Algeria,Phone Call,The Blush arrived with damaged packaging and I am disappointed.,Blush,3,Packaging Department,2025-08-20,resolved
+364,product_quality,1364,Customer_364,Tunisia,Email,the lipstick does not perform as advertised.,Lipstick,3,Quality Control Department,2025-04-21,resolved
+365,packaging,1365,Customer_365,Morocco,Website,The Sunscreen arrived with damaged packaging and I am disappointed.,Sunscreen,1,Packaging Department,2025-03-31,in_progress
+366,customer_service,1366,Customer_366,Nigeria,Phone Call,I contacted support about my Blush and never received a helpful response.,Blush,2,Customer Support,2025-03-04,in_progress
+367,packaging,1367,Customer_367,Tunisia,Email,the sunscreen arrived with damaged packaging and i am disappointed.,Sunscreen,3,Packaging Department,2025-10-26,awaiting
+368,delivery,1368,Customer_368,Kenya,Phone Call,my lipstick order arrived much later than expected. please help!!!,Lipstick,5,Delivery Department,2025-02-17,resolved
+369,packaging,1369,Customer_369,Tunisia,Mobile App,the blush arrived with damaged packaging and i am disappointed.,Blush,3,Packaging Department,2025-09-12,in_progress
+370,product_quality,1370,Customer_370,Morocco,Mobile App,The Body Lotion does not perform as advertised.,Body Lotion,2,Quality Control Department,2025-03-18,in_progress
+371,refund,1371,Customer_371,Egypt,Mobile App,I requested a refund for my Primer but have not received it.,Primer,3,Customer Support,2025-02-01,in_progress
+372,delivery,1372,Customer_372,Ghana,Email,My Foundation order arrived much later than expected.,Foundation,4,Delivery Department,2025-07-15,awaiting
+373,delivery,1373,Customer_373,Morocco,Mobile App,My Concealer order arrived much later than expected.,Concealer,3,Delivery Department,2025-05-19,in_progress
+374,packaging,1374,Customer_374,Nigeria,Mobile App,The Primer arrived with damaged packaging and I am disappointed.,Primer,4,Packaging Department,2025-09-29,resolved
+375,billing,1375,Customer_375,Morocco,Email,I was charged twice for my Sunscreen purchase.,Sunscreen,4,Finance Department,2025-04-23,awaiting
+376,customer_service,1376,Customer_376,Ghana,Phone Call,I contacted support about my Body Lotion and never received a helpful response.,Body Lotion,5,Customer Support,2025-10-31,resolved
+377,billing,1377,Customer_377,Egypt,Phone Call,I was charged twice for my Eyeshadow purchase. please help!!!,Eyeshadow,4,Finance Department,2025-10-16,in_progress
+378,customer_service,1378,Customer_378,Nigeria,Phone Call,I contacted support about my Blush and never received a helpful response.,Blush,1,Customer Support,2025-11-05,in_progress
+379,packaging,1379,Customer_379,Ghana,Website,the blush arrived with damaged packaging and i am disappointed.,Blush,2,Packaging Department,2025-04-01,resolved
+380,packaging,1380,Customer_380,Algeria,Website,The Foundation arrived with damaged packaging and I am disappointed.,Foundation,4,Packaging Department,2025-02-07,resolved
+381,refund,1381,Customer_381,Ghana,Phone Call,I requested a refund for my Kohl but have not received it.,Kohl,3,Customer Support,2025-08-12,awaiting
+382,customer_service,1382,Customer_382,Egypt,Website,I contacted support about my Kohl and never received a helpful response.,Kohl,3,Customer Support,2025-04-25,awaiting
+383,product_quality,1383,Customer_383,Ghana,Email,The Foundation does not perform as advertised.,Foundation,3,Quality Control Department,2025-12-26,awaiting
+384,product_quality,1384,Customer_384,Egypt,Phone Call,the primer does not perform as advertised.,Primer,5,Quality Control Department,2025-11-24,awaiting
+385,packaging,1385,Customer_385,Morocco,Phone Call,the blush arrived with damaged packaging and i am disappointed.,Blush,2,Packaging Department,2025-11-22,in_progress
+386,customer_service,1386,Customer_386,Morocco,Phone Call,I contacted support about my Kohl and never received a helpful response.,Kohl,3,Customer Support,2025-05-08,awaiting
+387,packaging,1387,Customer_387,Kenya,Mobile App,The Eyeliner arrived with damaged packaging and I am disappointed.,Eyeliner,1,Packaging Department,2025-03-27,resolved
+388,product_quality,1388,Customer_388,Algeria,Phone Call,The Body Lotion does not perform as advertised.,Body Lotion,4,Quality Control Department,2025-03-25,resolved
+389,packaging,1389,Customer_389,Nigeria,Website,The Cleanser arrived with damaged packaging and I am disappointed.,Cleanser,5,Packaging Department,2025-03-29,resolved
+390,packaging,1390,Customer_390,Egypt,Mobile App,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,2,Packaging Department,2025-12-27,in_progress
+391,product_quality,1391,Customer_391,Nigeria,Website,The Kohl does not perform as advertised.,Kohl,2,Quality Control Department,2025-04-16,in_progress
+392,product_quality,1392,Customer_392,Morocco,Website,The Concealer does not perform as advertised.,Concealer,3,Quality Control Department,2025-05-02,in_progress
+393,packaging,1393,Customer_393,Nigeria,Mobile App,The Primer arrived with damaged packaging and I am disappointed.,Primer,1,Packaging Department,2025-02-14,resolved
+394,customer_service,1394,Customer_394,Ghana,Website,I contacted support about my Kohl and never received a helpful response.,Kohl,1,Customer Support,2025-02-11,resolved
+395,customer_service,1395,Customer_395,Morocco,Email,I contacted support about my Eyeliner and never received a helpful response.,Eyeliner,5,Customer Support,2025-11-25,awaiting
+396,product_quality,1396,Customer_396,Morocco,Mobile App,The Eyeshadow does not perform as advertised.,Eyeshadow,3,Quality Control Department,2025-08-27,resolved
+397,delivery,1397,Customer_397,Nigeria,Email,My Eyeliner order arrived much later than expected.,Eyeliner,4,Delivery Department,2025-12-09,resolved
+398,billing,1398,Customer_398,Algeria,Mobile App,I was charged twice for my Body Lotion purchase.,Body Lotion,3,Finance Department,2025-09-25,resolved
+399,customer_service,1399,Customer_399,Kenya,Website,I contacted support about my Kohl and never received a helpful response.,Kohl,5,Customer Support,2025-02-10,resolved
+400,customer_service,1400,Customer_400,Tunisia,Phone Call,I contacted support about my Cleanser and never received a helpful response.,Cleanser,4,Customer Support,2025-03-03,resolved
+401,packaging,1401,Customer_401,Kenya,Email,The Foundation arrived with damaged packaging and I am disappointed.,Foundation,2,Packaging Department,2025-12-16,resolved
+402,delivery,1402,Customer_402,Tunisia,Email,my kohl order arrived much later than expected.,Kohl,3,Delivery Department,2025-02-14,resolved
+403,product_quality,1403,Customer_403,Algeria,Email,The Concealer does not perform as advertised.,Concealer,3,Quality Control Department,2025-12-25,awaiting
+404,product_quality,1404,Customer_404,Egypt,Email,the body lotion does not perform as advertised.,Body Lotion,3,Quality Control Department,2025-02-24,awaiting
+405,billing,1405,Customer_405,Morocco,Mobile App,I was charged twice for my Eyeliner purchase.,Eyeliner,5,Finance Department,2025-12-02,resolved
+406,product_quality,1406,Customer_406,Egypt,Mobile App,the blush does not perform as advertised.,Blush,2,Quality Control Department,2025-01-20,resolved
+407,customer_service,1407,Customer_407,Morocco,Website,I contacted support about my Eyeshadow and never received a helpful response. please help!!!,Eyeshadow,3,Customer Support,2025-01-11,resolved
+408,billing,1408,Customer_408,Tunisia,Email,I was charged twice for my Eyeliner purchase.,Eyeliner,5,Finance Department,2025-04-27,in_progress
+409,delivery,1409,Customer_409,Egypt,Email,My Blush order arrived much later than expected.,Blush,4,Delivery Department,2025-04-07,resolved
+410,delivery,1410,Customer_410,Algeria,Email,My Body Lotion order arrived much later than expected.,Body Lotion,5,Delivery Department,2025-09-21,in_progress
+411,packaging,1411,Customer_411,Egypt,Email,The Concealer arrived with damaged packaging and I am disappointed.,Concealer,3,Packaging Department,2025-03-30,in_progress
+412,customer_service,1412,Customer_412,Morocco,Phone Call,I contacted support about my Sunscreen and never received a helpful response.,Sunscreen,3,Customer Support,2025-05-21,resolved
+413,customer_service,1413,Customer_413,Ghana,Website,I contacted support about my Concealer and never received a helpful response.,Concealer,4,Customer Support,2025-09-08,awaiting
+414,product_quality,1414,Customer_414,Morocco,Email,The Blush does not perform as advertised.,Blush,2,Quality Control Department,2025-05-26,in_progress
+415,product_quality,1415,Customer_415,Ghana,Phone Call,The Foundation does not perform as advertised.,Foundation,2,Quality Control Department,2025-12-13,in_progress
+416,delivery,1416,Customer_416,Tunisia,Email,My Body Lotion order arrived much later than expected.,Body Lotion,5,Delivery Department,2025-08-31,in_progress
+417,refund,1417,Customer_417,Morocco,Website,I requested a refund for my Primer but have not received it.,Primer,4,Customer Support,2025-08-05,resolved
+418,customer_service,1418,Customer_418,Algeria,Mobile App,I contacted support about my Blush and never received a helpful response.,Blush,4,Customer Support,2025-10-27,in_progress
+419,packaging,1419,Customer_419,Egypt,Website,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,3,Packaging Department,2025-06-02,awaiting
+420,packaging,1420,Customer_420,Morocco,Website,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,3,Packaging Department,2025-12-02,awaiting
+421,customer_service,1421,Customer_421,Nigeria,Mobile App,I contacted support about my Kohl and never received a helpful response.,Kohl,4,Customer Support,2025-12-05,resolved
+422,refund,1422,Customer_422,Kenya,Mobile App,I requested a refund for my Cleanser but have not received it.,Cleanser,2,Customer Support,2025-07-18,awaiting
+423,packaging,1423,Customer_423,Tunisia,Mobile App,The Primer arrived with damaged packaging and I am disappointed.,Primer,4,Packaging Department,2025-12-10,resolved
+424,product_quality,1424,Customer_424,Nigeria,Mobile App,The Foundation does not perform as advertised.,Foundation,2,Quality Control Department,2025-03-07,awaiting
+425,delivery,1425,Customer_425,Morocco,Email,My Concealer order arrived much later than expected.,Concealer,4,Delivery Department,2025-04-24,resolved
+426,delivery,1426,Customer_426,Egypt,Website,My Eyeliner order arrived much later than expected.,Eyeliner,3,Delivery Department,2025-08-26,in_progress
+427,product_quality,1427,Customer_427,Ghana,Email,The Kohl does not perform as advertised.,Kohl,1,Quality Control Department,2025-12-15,resolved
+428,product_quality,1428,Customer_428,Ghana,Website,the body lotion does not perform as advertised.,Body Lotion,2,Quality Control Department,2025-07-29,awaiting
+429,customer_service,1429,Customer_429,Nigeria,Mobile App,i contacted support about my blush and never received a helpful response.,Blush,2,Customer Support,2025-06-20,awaiting
+430,customer_service,1430,Customer_430,Algeria,Phone Call,I contacted support about my Eyeshadow and never received a helpful response. please help!!!,Eyeshadow,3,Customer Support,2025-10-23,in_progress
+431,product_quality,1431,Customer_431,Kenya,Mobile App,the lipstick does not perform as advertised.,Lipstick,3,Quality Control Department,2025-07-16,in_progress
+432,packaging,1432,Customer_432,Algeria,Phone Call,The Sunscreen arrived with damaged packaging and I am disappointed.,Sunscreen,5,Packaging Department,2025-01-10,awaiting
+433,packaging,1433,Customer_433,Nigeria,Mobile App,The Sunscreen arrived with damaged packaging and I am disappointed.,Sunscreen,3,Packaging Department,2025-09-15,awaiting
+434,delivery,1434,Customer_434,Tunisia,Website,My Lipstick order arrived much later than expected.,Lipstick,3,Delivery Department,2025-08-11,awaiting
+435,customer_service,1435,Customer_435,Ghana,Mobile App,I contacted support about my Eyeshadow and never received a helpful response.,Eyeshadow,4,Customer Support,2025-01-10,in_progress
+436,delivery,1436,Customer_436,Nigeria,Website,My Foundation order arrived much later than expected. please help!!!,Foundation,3,Delivery Department,2025-12-31,awaiting
+437,billing,1437,Customer_437,Nigeria,Email,I was charged twice for my Body Lotion purchase.,Body Lotion,3,Finance Department,2025-12-05,in_progress
+438,refund,1438,Customer_438,Nigeria,Website,i requested a refund for my cleanser but have not received it.,Cleanser,3,Customer Support,2025-08-31,awaiting
+439,packaging,1439,Customer_439,Tunisia,Website,The Kohl arrived with damaged packaging and I am disappointed.,Kohl,4,Packaging Department,2025-11-15,awaiting
+440,refund,1440,Customer_440,Nigeria,Website,I requested a refund for my Body Lotion but have not received it.,Body Lotion,4,Customer Support,2025-02-28,in_progress
+441,product_quality,1441,Customer_441,Ghana,Website,The Primer does not perform as advertised.,Primer,3,Quality Control Department,2025-12-27,resolved
+442,delivery,1442,Customer_442,Kenya,Website,My Cleanser order arrived much later than expected.,Cleanser,4,Delivery Department,2025-05-01,in_progress
+443,packaging,1443,Customer_443,Ghana,Email,The Lipstick arrived with damaged packaging and I am disappointed.,Lipstick,4,Packaging Department,2025-09-19,in_progress
+444,billing,1444,Customer_444,Morocco,Website,I was charged twice for my Lipstick purchase.,Lipstick,3,Finance Department,2025-08-26,in_progress
+445,packaging,1445,Customer_445,Tunisia,Website,The Foundation arrived with damaged packaging and I am disappointed.,Foundation,3,Packaging Department,2025-08-07,awaiting
+446,packaging,1446,Customer_446,Morocco,Website,the cleanser arrived with damaged packaging and i am disappointed.,Cleanser,4,Packaging Department,2025-08-13,awaiting
+447,delivery,1447,Customer_447,Kenya,Mobile App,My Lipstick order arrived much later than expected.,Lipstick,2,Delivery Department,2025-05-20,resolved
+448,refund,1448,Customer_448,Nigeria,Phone Call,I requested a refund for my Blush but have not received it.,Blush,4,Customer Support,2025-12-23,awaiting
+449,packaging,1449,Customer_449,Egypt,Mobile App,the foundation arrived with damaged packaging and i am disappointed.,Foundation,3,Packaging Department,2025-04-03,awaiting
+450,product_quality,1450,Customer_450,Tunisia,Phone Call,The Eyeshadow does not perform as advertised.,Eyeshadow,5,Quality Control Department,2025-09-05,resolved
+451,packaging,1451,Customer_451,Nigeria,Phone Call,The Body Lotion arrived with damaged packaging and I am disappointed. please help!!!,Body Lotion,4,Packaging Department,2025-12-09,resolved
+452,product_quality,1452,Customer_452,Morocco,Mobile App,the primer does not perform as advertised.,Primer,2,Quality Control Department,2025-03-18,awaiting
+453,customer_service,1453,Customer_453,Algeria,Mobile App,i contacted support about my primer and never received a helpful response.,Primer,2,Customer Support,2025-09-11,in_progress
+454,packaging,1454,Customer_454,Egypt,Phone Call,The Blush arrived with damaged packaging and I am disappointed.,Blush,3,Packaging Department,2025-10-09,awaiting
+455,product_quality,1455,Customer_455,Nigeria,Mobile App,the sunscreen does not perform as advertised.,Sunscreen,3,Quality Control Department,2025-08-17,resolved
+456,packaging,1456,Customer_456,Nigeria,Email,The Blush arrived with damaged packaging and I am disappointed. please help!!!,Blush,3,Packaging Department,2025-02-16,awaiting
+457,customer_service,1457,Customer_457,Tunisia,Mobile App,I contacted support about my Kohl and never received a helpful response.,Kohl,2,Customer Support,2025-06-24,resolved
+458,customer_service,1458,Customer_458,Egypt,Mobile App,I contacted support about my Sunscreen and never received a helpful response.,Sunscreen,4,Customer Support,2025-12-03,resolved
+459,refund,1459,Customer_459,Morocco,Website,i requested a refund for my lipstick but have not received it.,Lipstick,1,Customer Support,2025-10-08,awaiting
+460,product_quality,1460,Customer_460,Tunisia,Mobile App,the lipstick does not perform as advertised.,Lipstick,2,Quality Control Department,2025-02-24,resolved
+461,refund,1461,Customer_461,Algeria,Phone Call,i requested a refund for my sunscreen but have not received it.,Sunscreen,2,Customer Support,2025-06-23,in_progress
+462,billing,1462,Customer_462,Algeria,Mobile App,I was charged twice for my Cleanser purchase.,Cleanser,3,Finance Department,2025-08-23,awaiting
+463,product_quality,1463,Customer_463,Nigeria,Mobile App,the concealer does not perform as advertised.,Concealer,3,Quality Control Department,2025-10-27,resolved
+464,customer_service,1464,Customer_464,Nigeria,Mobile App,I contacted support about my Foundation and never received a helpful response.,Foundation,4,Customer Support,2025-12-03,awaiting
+465,refund,1465,Customer_465,Tunisia,Phone Call,I requested a refund for my Eyeshadow but have not received it.,Eyeshadow,5,Customer Support,2025-05-21,resolved
+466,customer_service,1466,Customer_466,Tunisia,Website,I contacted support about my Eyeliner and never received a helpful response.,Eyeliner,3,Customer Support,2025-12-26,awaiting
+467,customer_service,1467,Customer_467,Morocco,Website,I contacted support about my Concealer and never received a helpful response.,Concealer,4,Customer Support,2025-12-11,in_progress
+468,customer_service,1468,Customer_468,Tunisia,Website,I contacted support about my Kohl and never received a helpful response.,Kohl,3,Customer Support,2025-12-30,in_progress
+469,billing,1469,Customer_469,Kenya,Website,I was charged twice for my Concealer purchase.,Concealer,4,Finance Department,2025-08-05,in_progress
+470,product_quality,1470,Customer_470,Morocco,Phone Call,The Cleanser does not perform as advertised. please help!!!,Cleanser,1,Quality Control Department,2025-05-27,awaiting
+471,delivery,1471,Customer_471,Nigeria,Website,My Cleanser order arrived much later than expected.,Cleanser,4,Delivery Department,2025-08-20,in_progress
+472,refund,1472,Customer_472,Egypt,Mobile App,I requested a refund for my Kohl but have not received it.,Kohl,4,Customer Support,2025-05-02,awaiting
+473,billing,1473,Customer_473,Kenya,Website,I was charged twice for my Eyeliner purchase. please help!!!,Eyeliner,3,Finance Department,2025-10-10,in_progress
+474,packaging,1474,Customer_474,Kenya,Phone Call,The Eyeliner arrived with damaged packaging and I am disappointed.,Eyeliner,5,Packaging Department,2025-11-21,awaiting
+475,refund,1475,Customer_475,Algeria,Phone Call,I requested a refund for my Eyeshadow but have not received it.,Eyeshadow,4,Customer Support,2025-05-31,resolved
+476,packaging,1476,Customer_476,Nigeria,Mobile App,the kohl arrived with damaged packaging and i am disappointed.,Kohl,4,Packaging Department,2025-01-21,resolved
+477,delivery,1477,Customer_477,Morocco,Mobile App,my eyeliner order arrived much later than expected.,Eyeliner,2,Delivery Department,2025-12-30,in_progress
+478,packaging,1478,Customer_478,Algeria,Website,The Eyeshadow arrived with damaged packaging and I am disappointed.,Eyeshadow,4,Packaging Department,2025-09-09,awaiting
+479,product_quality,1479,Customer_479,Ghana,Email,The Lipstick does not perform as advertised.,Lipstick,2,Quality Control Department,2025-09-16,in_progress
+480,product_quality,1480,Customer_480,Tunisia,Website,The Concealer does not perform as advertised.,Concealer,5,Quality Control Department,2025-06-19,resolved
+481,delivery,1481,Customer_481,Tunisia,Email,My Primer order arrived much later than expected.,Primer,4,Delivery Department,2025-02-28,awaiting
+482,delivery,1482,Customer_482,Nigeria,Website,My Sunscreen order arrived much later than expected.,Sunscreen,4,Delivery Department,2025-07-15,in_progress
+483,product_quality,1483,Customer_483,Algeria,Website,The Concealer does not perform as advertised. please help!!!,Concealer,3,Quality Control Department,2025-09-21,awaiting
+484,product_quality,1484,Customer_484,Nigeria,Email,The Cleanser does not perform as advertised.,Cleanser,3,Quality Control Department,2025-03-27,awaiting
+485,product_quality,1485,Customer_485,Algeria,Mobile App,the kohl does not perform as advertised.,Kohl,4,Quality Control Department,2025-02-23,in_progress
+486,product_quality,1486,Customer_486,Ghana,Email,The Body Lotion does not perform as advertised.,Body Lotion,4,Quality Control Department,2025-08-24,awaiting
+487,delivery,1487,Customer_487,Nigeria,Phone Call,my lipstick order arrived much later than expected.,Lipstick,2,Delivery Department,2025-05-13,resolved
+488,product_quality,1488,Customer_488,Nigeria,Email,The Kohl does not perform as advertised.,Kohl,3,Quality Control Department,2025-11-25,awaiting
+489,refund,1489,Customer_489,Egypt,Email,i requested a refund for my primer but have not received it.,Primer,3,Customer Support,2025-05-29,awaiting
+490,delivery,1490,Customer_490,Algeria,Email,My Lipstick order arrived much later than expected.,Lipstick,3,Delivery Department,2025-08-31,in_progress
+491,product_quality,1491,Customer_491,Morocco,Phone Call,The Foundation does not perform as advertised.,Foundation,5,Quality Control Department,2025-06-02,awaiting
+492,customer_service,1492,Customer_492,Egypt,Phone Call,I contacted support about my Kohl and never received a helpful response.,Kohl,3,Customer Support,2025-03-05,in_progress
+493,packaging,1493,Customer_493,Ghana,Website,The Primer arrived with damaged packaging and I am disappointed.,Primer,2,Packaging Department,2025-04-19,resolved
+494,customer_service,1494,Customer_494,Morocco,Phone Call,i contacted support about my concealer and never received a helpful response.,Concealer,4,Customer Support,2025-02-28,in_progress
+495,refund,1495,Customer_495,Egypt,Mobile App,I requested a refund for my Primer but have not received it.,Primer,5,Customer Support,2025-11-27,awaiting
+496,packaging,1496,Customer_496,Kenya,Website,the kohl arrived with damaged packaging and i am disappointed.,Kohl,4,Packaging Department,2025-07-02,in_progress
+497,refund,1497,Customer_497,Morocco,Mobile App,i requested a refund for my sunscreen but have not received it.,Sunscreen,5,Customer Support,2025-08-19,resolved
+498,refund,1498,Customer_498,Algeria,Website,I requested a refund for my Eyeliner but have not received it.,Eyeliner,3,Customer Support,2025-08-08,in_progress
+499,packaging,1499,Customer_499,Morocco,Website,The Sunscreen arrived with damaged packaging and I am disappointed.,Sunscreen,4,Packaging Department,2025-03-10,awaiting
+500,billing,1500,Customer_500,Egypt,Email,I was charged twice for my Blush purchase.,Blush,3,Finance Department,2025-03-31,awaiting
